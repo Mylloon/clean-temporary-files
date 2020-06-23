@@ -8,3 +8,8 @@ for /r "%temp%" %%i in ("*") do del /F /Q "%%i"
 echo Suppression dossiers dans %temp%
 cd %temp%
 for /D %%l in (.\*) do rmdir /Q /S "%%l"
+
+:: Nettoyage du disque
+
+cd %windir%\system32
+cleanmgr.exe /VERYLOWDISK

@@ -53,3 +53,9 @@ for /D %%m in (.\*) do rmdir /Q /S "%%m"
 echo Suppression dossiers dans %windir%\Prefetch
 cd %windir%\Prefetch
 for /D %%n in (.\*) do rmdir /Q /S "%%n"
+
+:: Nettoyage du disque
+
+cd %windir%\system32
+cleanmgr.exe /AUTOCLEAN
+cleanmgr.exe /VERYLOWDISK
