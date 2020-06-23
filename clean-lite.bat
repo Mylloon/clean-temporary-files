@@ -11,5 +11,6 @@ for /D %%l in (.\*) do rmdir /Q /S "%%l"
 
 :: Nettoyage du disque
 
+echo Nettoyage de l'ordinateur
 cd %windir%\system32
 cleanmgr.exe /VERYLOWDISK
