@@ -7,3 +7,7 @@ delete everything in *C:\Users\YOU\AppData\Local\Temp* ; *C:\Windows\Temp* ; *C:
 --
 
 lite version [clean-lite.bat](https://github.com/Mylloon/clean-temporary-files/blob/master/clean-lite.bat) lite version doesn't require admin rights but only removes *C:\Users\YOU\AppData\Local\Temp*
+
+--
+
+tool will also start cleanmgr.exe
