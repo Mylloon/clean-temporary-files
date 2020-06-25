@@ -15,3 +15,7 @@ The tool will also run cleanmgr.exe and clean your disk
 --
 
 I do not recommend this tool if you are not using an SSD. If you don't use one, simply run a cleanmgr.exe
+
+--
+
+to empty the recycle bin: `rd /s /q c:\$Recycle.Bin` in the command prompt as admin
